@@ -1,0 +1,50 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 500px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.principal {
+    background-color: darkslateblue;
+    border: 2px solid rgb(137, 21, 21);
+    border-radius: 15px;
+    padding: 2rem;
+    color: #fff;
+}
+.principal__titulo {
+    font-size: 24px;
+    text-align: center;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    
+}
+
+.caixa {
+    display: flex;
+    flex-direction: column;
+}
+
+.caixa__input{
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
+}
+
+.botao__adicionar {
+    margin-bottom: 0.8rem;
+}
+
+.lista {
+    border: 2px solid #fff;
+    border-radius: 15px;
+    padding: 2rem;
+}
+
+.riscar {
+    text-decoration: line-through;
+    color: red;
+}

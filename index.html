@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="website icon" type ="png" href="./img/logo.png">
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./estilo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <title>LembreteAPP</title>
+</head>
+<body>
+    <main class="principal">
+        <h1 class="principal__titulo">Lista de Tarefas</h1>
+        <div class="caixa">
+            <label for="input-tarefa">Digite aqui sua tarefa</label>
+            <input type="text" class="caixa__input" data-caixa-input>
+            <button type="submit" class="botao__adicionar" data-botao-adicionar>Enviar</button>
+
+            <ul class="lista" data-lista>
+                <li>A 
+                    <button type="submit" value="Concluir">Concluir</button>
+                    <button type="submit" value="Excluir">Excluir</button>  
+                </li>
+                
+            </ul>
+        </div>
+    </main>
+    
+    <script src="./script.js"></script>
+</body>
+</html>
